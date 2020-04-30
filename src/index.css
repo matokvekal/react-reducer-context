@@ -5,9 +5,73 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: aqua;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App{
+  background-color: blueviolet;
+  margin: 20% auto;
+  width:90%;
+  max-width: 700px;
+  color :#eee;
+}
+.navbar{
+  padding:  10px 20px;
+  text-align: center;
+  background-color: crimson;
+}
+.navbar h1{
+  margin: 10px 0;
+}
+.book-list{
+  margin: 20px;
+}
+.book-list ul{
+  padding :0;
+  list-style-type: none;
+}
+.book-list li{
+  background-color: darkmagenta;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+  margin:10px 0;
+}
+.book-list li:hover{
+opacity: 0.7;
+text-decoration:line-through;
+}
+.book-list title{
+  font-weight: bold;
+  color:#fff;
+  font-size: 1.2em;
+}
+.book-list author{
+  color:#ddd;
+  font-size: 0.9em;
+}
+.empthy{
+  margin: 20px;
+  text-align: center;
+}
+form{
+  padding: 20px;
+}
+input[type='text']{
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 6px 0;
+  color:white;
+  background: rgb(63, 65, 185);
+  border:0;
+}
+input[type='submit']
+{
+  margin: 100px auto;
+  background: #eee;
+  border:0;
+  padding: 6px 20px;
+  display: block;
+  background-color: red;
 }
